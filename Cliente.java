@@ -52,7 +52,12 @@ public class Cliente
      * representación textual del cliente
      */
     public String toString() {
-         
+         String aux = "";
+        aux = aux + "NOMBRE: " + nombre + '\n'+
+                        "DIRECCION: " + direccion + '\n'+
+                          "CIUDAD: " + ciudad + '\n'+ 
+                            "PROVINCIA: " + provincia + '\n';
+        return aux;
           
     }
     
